@@ -13,7 +13,9 @@
 
 
 ### 开发使用框架
-- glide 和 picasso
+- glide 加载图片
+- picasso 加载图片
+
 
 ### 问题方案
 
