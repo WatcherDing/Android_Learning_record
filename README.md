@@ -74,9 +74,7 @@
 
 * [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
 
-* [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
-
-* [Android 知识梳理](http://gank.io/post/560e15be2dca930e00da1083https://gold.xitu.io/post/587dbaf9570c3522010e400e?utm_source=gold_browser_extension)
+* [Android 知识梳理](https://gold.xitu.io/post/587dbaf9570c3522010e400e?utm_source=gold_browser_extension)
 
 
 
