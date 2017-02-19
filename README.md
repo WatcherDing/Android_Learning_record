@@ -43,14 +43,7 @@
 
 * [我们为什么要使用DataBinding](https://gold.xitu.io/entry/58a8fada5c497d005fbd8bd3)  
 
-* [我们为什么要使用DataBinding](http://blog.csdn.net/hansion3333/article/details/54946304
-
-
-
-
-
-
-)
+* [安卓代码动态切换APP启动图标](http://blog.csdn.net/hansion3333/article/details/54946304)
 
 
 
