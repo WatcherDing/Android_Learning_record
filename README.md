@@ -2,10 +2,10 @@
 
 ### 插件
 
-* [banner](https://github.com/youth5201314/banner)   Android图片轮播控件
-* [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)   Android工具类
+* [banner](https://github.com/youth5201314/banner) - Android图片轮播控件
+* [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode) - Android工具类
 * [AndroidAutoLayout
-](https://github.com/hongyangAndroid/AndroidAutoLayout)   屏幕适配终极解决方案
+](https://github.com/hongyangAndroid/AndroidAutoLayout) - 屏幕适配终极解决方案
 
 
 ---
