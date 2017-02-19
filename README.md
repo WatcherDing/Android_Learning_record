@@ -19,7 +19,7 @@
 * [屏幕适配的前世今生](http://blog.csdn.net/lin_t_s/article/details/55271002)
 * [AndroidManifest--你真的理解了吗？](http://www.jianshu.com/p/6ed30112d4a4)
 * [永不 crash 的 Android](https://gold.xitu.io/entry/58a54482128fe1006463406f)
-* [AndroidManifest--你真的理解了吗？](http://www.jianshu.com/p/6ed30112d4a4http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0214/7114.html)
+* [AndroidManifest--你真的理解了吗？](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0214/7114.html)
 
 
 
