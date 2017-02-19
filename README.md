@@ -16,7 +16,9 @@
 
 ###优秀博客
 * [屏幕适配的前世今生](http://blog.csdn.net/lin_t_s/article/details/55271002)
+* [屏幕适配的前世今生](http://blog.csdn.net/lin_t_s/article/details/55271002)
 
+http://www.jianshu.com/p/6ed30112d4a4
 
 http://blog.csdn.net/lin_t_s/article/details/55271002
 
