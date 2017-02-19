@@ -12,6 +12,9 @@
 * glide 加载图片
 * picasso 加载图片
 
+###优秀博客
+http://blog.csdn.net/lin_t_s/article/details/55271002
+
 
 ###其他资源
 * [Android 开发资料汇总](https://github.com/tonycheng93/Android-development-summary)   
