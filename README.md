@@ -67,6 +67,13 @@
 * [打造安卓开发航空母舰，Android Studio 使用集锦](https://github.com/jp1017/Android-Development-Aircraft-Carrier)
   
 * [FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android)
+
+* [FastDev4Android](http://androidblog.cn/index.php/Source/
+
+
+
+)
+   
   
 
 
