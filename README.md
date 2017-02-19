@@ -28,7 +28,7 @@
 
 * [Android 常用框架集合](https://gold.xitu.io/post/5875da3cac502e006476de1a)  
 
-* [2017年伊始你绝对想尝试的25个新安卓库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0216/7122.html)  
+* [Android性能优化（一）之启动加速35%](https://gold.xitu.io/post/5874bff0128fe1006b443fa0)  
 
 * [2017年伊始你绝对想尝试的25个新安卓库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0216/7122.html)  
 
