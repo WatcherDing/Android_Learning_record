@@ -25,8 +25,23 @@
 * glide 加载图片
 * picasso 加载图片
 
-###优秀博客
 
+### Android资源合集
+
+* [各种Android UI开源框架](https://github.com/Tim9Liu9/TimLiu-Android)
+
+* [Awesome-MaterialDesign](https://github.com/lightSky/Awesome-MaterialDesign)
+
+* [Android 开发资料汇总](https://github.com/tonycheng93/Android-development-summary)   
+
+* [打造安卓开发航空母舰，Android Studio 使用集锦](https://github.com/jp1017/Android-Development-Aircraft-Carrier)
+  
+* [FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android)
+
+* [Android最新源码汇总](http://androidblog.cn/index.php/Source/)
+   
+
+###优秀博客
 
 * [各种Android UI开源框架](https://github.com/Tim9Liu9/TimLiu-Android)
 
@@ -68,20 +83,7 @@
 
 
 
-### Android资源合集
 
-* [各种Android UI开源框架](https://github.com/Tim9Liu9/TimLiu-Android)
-
-* [Awesome-MaterialDesign](https://github.com/lightSky/Awesome-MaterialDesign)
-
-* [Android 开发资料汇总](https://github.com/tonycheng93/Android-development-summary)   
-
-* [打造安卓开发航空母舰，Android Studio 使用集锦](https://github.com/jp1017/Android-Development-Aircraft-Carrier)
-  
-* [FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android)
-
-* [Android最新源码汇总](http://androidblog.cn/index.php/Source/)
-   
   
 
 
