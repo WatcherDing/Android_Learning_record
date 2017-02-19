@@ -62,7 +62,7 @@
 
 * [Android 基于 ImageLoaderUtil 封装库的图集实现](https://gold.xitu.io/entry/58a664368d6d810057caae6c)  
 
-* [Android - 仿赶集 app 下拉刷新](https://gold.xitu.io/entry/587723281b69e6006bcfc3af)  
+* [Android - 仿赶集 app 下拉刷新](http://sangenan.top/2017/01/11/donkeyRefresh/)  
 
 * [Android 常用框架集合](https://gold.xitu.io/post/5875da3cac502e006476de1a)  
 
