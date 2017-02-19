@@ -13,7 +13,7 @@
 * picasso 加载图片
 
 ###优秀博客
-* [AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)   Android工具类
+* [AndroidUtilCode](http://blog.csdn.net/lin_t_s/article/details/55271002)   Android工具类
 
 
 http://blog.csdn.net/lin_t_s/article/details/55271002
