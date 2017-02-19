@@ -10,6 +10,12 @@
 
 * [awesome-android-ui](https://github.com/hongyangAndroid/AndroidAutoLayout) - 优秀的android-ui
 
+* [PickPhotoSample](https://github.com/Werb/PickPhotoSample) - 像微信一样的图片选择器
+
+
+
+
+
 
 
 ---
