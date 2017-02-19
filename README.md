@@ -4,7 +4,7 @@
 
 ### 插件
 
-* [CityPicker](https://github.com/zaaach/CityPicker) - Android图片轮播控件
+* [CityPicker](https://github.com/zaaach/CityPicker) - 城市选择界面
 
 
 * [banner](https://github.com/youth5201314/banner) - Android图片轮播控件
