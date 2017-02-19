@@ -68,7 +68,8 @@
 
 
 
-###其他资源
+###GitHUb合集
+
 * [各种Android UI开源框架](https://github.com/Tim9Liu9/TimLiu-Android)
 
 * [Awesome-MaterialDesign](https://github.com/lightSky/Awesome-MaterialDesign)
