@@ -26,7 +26,7 @@
 
 * [Android - 仿赶集 app 下拉刷新](https://gold.xitu.io/entry/587723281b69e6006bcfc3af)  
 
-* [2017年伊始你绝对想尝试的25个新安卓库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0216/7122.html)  
+* [Android 常用框架集合](https://gold.xitu.io/post/5875da3cac502e006476de1a)  
 
 * [2017年伊始你绝对想尝试的25个新安卓库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0216/7122.html)  
 
