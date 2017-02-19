@@ -13,7 +13,12 @@
 * picasso 加载图片
 
 
-###其他github资源
+###其他资源
+* [Android 开发资料汇总](https://github.com/tonycheng93/Android-development-summary)   
+* [Android 开发资料汇总](https://github.com/tonycheng93/Android-development-summary)  
+* [Android 开发资料汇总](https://github.com/tonycheng93/Android-development-summary)  
+* [Android 开发资料汇总](https://github.com/tonycheng93/Android-development-summary)  
+*打造安卓开发航空母舰，Android Studio 使用集锦
 
 ### 问题方案
 
