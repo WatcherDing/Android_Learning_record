@@ -39,7 +39,6 @@
 * [我们为什么要使用DataBinding](https://gold.xitu.io/entry/58a8fada5c497d005fbd8bd3)  
 
 
-https://gold.xitu.io/entry/58a664368d6d810057caae6c
 
 
 
