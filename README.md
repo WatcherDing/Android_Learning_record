@@ -17,7 +17,7 @@
 * [Android 开发资料汇总](https://github.com/tonycheng93/Android-development-summary)   
 * [打造安卓开发航空母舰，Android Studio 使用集锦](https://github.com/jp1017/Android-Development-Aircraft-Carrier)  
 * [FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android)  
-* [Android 开发资料汇总](https://github.com/inferjay/AndroidDevTools)  
+* [Android开发所需](https://github.com/inferjay/AndroidDevTools)  
 * 
 
 ### 问题方案
