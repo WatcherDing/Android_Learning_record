@@ -24,7 +24,7 @@
 * [2017年伊始你绝对想尝试的25个新安卓库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0216/7122.html)  
 * [Android 基于 ImageLoaderUtil 封装库的图集实现](https://gold.xitu.io/entry/58a664368d6d810057caae6c)  
 
-* [2017年伊始你绝对想尝试的25个新安卓库](https://gold.xitu.io/entry/587723281b69e6006bcfc3af)  
+* [Android - 仿赶集 app 下拉刷新](https://gold.xitu.io/entry/587723281b69e6006bcfc3af)  
 
 * [2017年伊始你绝对想尝试的25个新安卓库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0216/7122.html)  
 
