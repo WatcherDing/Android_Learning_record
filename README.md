@@ -30,7 +30,7 @@
 
 * [Android性能优化（一）之启动加速35%](https://gold.xitu.io/post/5874bff0128fe1006b443fa0)  
 
-* [2017年伊始你绝对想尝试的25个新安卓库](https://gold.xitu.io/entry/58a8fada5c497d005fbd8bd3)  
+* [我们为什么要使用DataBinding](https://gold.xitu.io/entry/58a8fada5c497d005fbd8bd3)  
 
 
 https://gold.xitu.io/entry/58a664368d6d810057caae6c
