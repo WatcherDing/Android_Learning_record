@@ -46,7 +46,7 @@ https://gold.xitu.io/entry/58a664368d6d810057caae6c
 * 
 
 ### 其他
-* [FastDev4Android](https://gold.xitu.io/entry/58a57529128fe1006465864d
+* [成为专业程序员路上用到的各种优秀资料、神器及框架](https://gold.xitu.io/entry/58a57529128fe1006465864d
 
 
 
