@@ -45,14 +45,7 @@
 
 * [安卓代码动态切换APP启动图标](http://blog.csdn.net/hansion3333/article/details/54946304)
 
-* [安卓代码动态切换APP启动图标](http://gank.io/post/560e15be2dca930e00da1083
-
-
-
-
-
-
-)
+* [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
 
 
 
