@@ -46,6 +46,7 @@ https://gold.xitu.io/entry/58a664368d6d810057caae6c
 
 ###其他资源
 * [Android 开发资料汇总](https://github.com/tonycheng93/Android-development-summary)   
+
 * [打造安卓开发航空母舰，Android Studio 使用集锦](https://github.com/jp1017/Android-Development-Aircraft-Carrier)  
 * [FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android)  
 
@@ -54,6 +55,7 @@ https://gold.xitu.io/entry/58a664368d6d810057caae6c
 ### 其他
 
 * [成为专业程序员路上用到的各种优秀资料、神器及框架](https://gold.xitu.io/entry/58a57529128fe1006465864d)  
+
 * [神注释大全（欢迎补充）](https://gold.xitu.io/entry/58758081ac502e006c359757)  
 
 
