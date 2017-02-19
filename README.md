@@ -68,7 +68,7 @@
 
 
 
-###GitHUb合集
+###GitHUb Android资源合集
 
 * [各种Android UI开源框架](https://github.com/Tim9Liu9/TimLiu-Android)
 
