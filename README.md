@@ -20,7 +20,7 @@
 
 #####加载图片
 
-* [glide](https://github.com/bumptech/glide) （推荐）
+* [glide](https://github.com/bumptech/glide) 
 
 * [picasso](https://github.com/square/picasso)
 
