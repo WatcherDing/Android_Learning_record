@@ -43,6 +43,16 @@
 
 * [我们为什么要使用DataBinding](https://gold.xitu.io/entry/58a8fada5c497d005fbd8bd3)  
 
+* [我们为什么要使用DataBinding](http://blog.csdn.net/hansion3333/article/details/54946304
+
+
+
+
+
+
+)
+
+
 
 
 
