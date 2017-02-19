@@ -13,7 +13,7 @@
 * picasso 加载图片
 
 ###优秀博客
-* [AndroidUtilCode](http://blog.csdn.net/lin_t_s/article/details/55271002)   Android工具类
+* [屏幕适配的前世今生](http://blog.csdn.net/lin_t_s/article/details/55271002)
 
 
 http://blog.csdn.net/lin_t_s/article/details/55271002
