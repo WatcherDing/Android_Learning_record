@@ -22,7 +22,7 @@
 * [AndroidManifest--你真的理解了吗？](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0214/7114.html)
 * [20多个可以提高你安卓开发技能的开源app](https://github.com/inferjay/AndroidDevTools)  
 * [2017年伊始你绝对想尝试的25个新安卓库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0216/7122.html)  
-* [2017年伊始你绝对想尝试的25个新安卓库](https://gold.xitu.io/entry/58a664368d6d810057caae6c)  
+* [Android 基于 ImageLoaderUtil 封装库的图集实现](https://gold.xitu.io/entry/58a664368d6d810057caae6c)  
 
 * [2017年伊始你绝对想尝试的25个新安卓库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0216/7122.html)  
 
