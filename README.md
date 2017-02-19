@@ -68,7 +68,7 @@
   
 * [FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android)
 
-* [FastDev4Android](http://androidblog.cn/index.php/Source/)
+* [android 资源合集](http://androidblog.cn/index.php/Source/)
    
   
 
