@@ -21,7 +21,7 @@
 
 ###优秀博客
 
-http://blog.csdn.net/hanj456/article/details/53484819
+
 * [各种Android UI开源框架](https://github.com/Tim9Liu9/TimLiu-Android)
 
 * [屏幕适配的前世今生](http://blog.csdn.net/lin_t_s/article/details/55271002)
