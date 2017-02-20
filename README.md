@@ -10,7 +10,7 @@
 * [AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout) - 屏幕适配终极解决方案
 * [awesome-android-ui](https://github.com/hongyangAndroid/AndroidAutoLayout) - 优秀的android-ui
 * [PickPhotoSample](https://github.com/Werb/PickPhotoSample) - 像微信一样的图片选择器
-* [PickPhotoSample](https://github.com/Werb/PickPhotoSample) - Android 万能的Adapter
+* [baseAdapter](https://github.com/hongyangAndroid/baseAdapter) - Android 万能的Adapter
 
 
 
