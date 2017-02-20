@@ -10,7 +10,7 @@
 * [AndroidAutoLayout](https://github.com/hongyangAndroid/AndroidAutoLayout) - 屏幕适配终极解决方案
 * [awesome-android-ui](https://github.com/hongyangAndroid/AndroidAutoLayout) - 优秀的android-ui
 * [PickPhotoSample](https://github.com/Werb/PickPhotoSample) - 像微信一样的图片选择器
-* [AndroidColdStart](https://github.com/hyr0318/AndroidColdStart) - Android 冷启动，优化app启动速度(视觉上提高启动速度)
+* [AndroidColdStart](https://github.com/hyr0318/AndroidColdStart) - [Android 优化启动速度（冷启动）](https://github.com/hyr0318/AndroidColdStart) 
 
 
 
