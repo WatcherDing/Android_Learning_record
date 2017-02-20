@@ -89,23 +89,7 @@
 * [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN ) 
 
 
-](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0214/7114.html)
-* [20多个可以提高你安卓开发技能的开源app](https://github.com/inferjay/AndroidDevTools)  
-* [2017年伊始你绝对想尝试的25个新安卓库](http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2017/0216/7122.html)  
-* [Android 基于 ImageLoaderUtil 封装库的图集实现](https://gold.xitu.io/entry/58a664368d6d810057caae6c)  
-* [Android - 仿赶集 app 下拉刷新](http://sangenan.top/2017/01/11/donkeyRefresh/)  
-* [Android 常用框架集合](https://gold.xitu.io/post/5875da3cac502e006476de1a)  
-* [Android性能优化（一）之启动加速35%](https://gold.xitu.io/post/5874bff0128fe1006b443fa0)  
-* [我们为什么要使用DataBinding](https://gold.xitu.io/entry/58a8fada5c497d005fbd8bd3)  
-* [安卓代码动态切换APP启动图标](http://blog.csdn.net/hansion3333/article/details/54946304)
-* [给 Android 开发者的 RxJava 详解](http://gank.io/post/560e15be2dca930e00da1083)
-* [Android 知识梳理](https://gold.xitu.io/post/587dbaf9570c3522010e400e?utm_source=gold_browser_extension)
 
-### 其他
-
-* [成为专业程序员路上用到的各种优秀资料、神器及框架](https://gold.xitu.io/entry/58a57529128fe1006465864d)  
-* [神注释大全（欢迎补充）](https://gold.xitu.io/entry/58758081ac502e006c359757) 
-* [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN ) 
 
 
 
