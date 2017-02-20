@@ -21,9 +21,7 @@
 * 在 `style.xml` 
 
 ```xml
-
- <style name="AppTheme.Launcher">
+    <style name="AppTheme.Launcher">
         <item name="android:windowBackground">@drawable/launch_screen</item>
     </style>
-
 ```
