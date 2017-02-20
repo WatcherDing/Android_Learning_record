@@ -14,8 +14,7 @@
 
     <item>
         <bitmap android:src="@mipmap/ic_launcher"
-            android:gravity="center"
-            />
+            android:gravity="center" />
     </item>
 </layer-list>
 
