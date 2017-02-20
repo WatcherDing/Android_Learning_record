@@ -12,6 +12,8 @@
 * [PickPhotoSample](https://github.com/Werb/PickPhotoSample) - 像微信一样的图片选择器
 * [Android 优化启动速度（冷启动）](./Problem_solution/Android冷启动 - 启动优化.md) 
 * [Glide Transformations](https://github.com/wasabeef/glide-transformations) - Glide 图片修改（原图等）
+* [baseAdapter](https://github.com/hongyangAndroid/baseAdapter) - Glide 图片修改（原图等）
+
 
 
 
