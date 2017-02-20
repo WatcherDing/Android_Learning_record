@@ -4,6 +4,16 @@
 ###方法
 * 在 `drawable` 下新建 `launch_screen.xml` 
 
-```js
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
+     android:opacity="opaque">
+        <item android:drawable="@android:color/white"/> 
+<item>
+    <bitmap
+        android:src="@drawable/googlelogo"
+        android:gravity="center"/>
+    </item>
+</layer-list>
 
 ```
