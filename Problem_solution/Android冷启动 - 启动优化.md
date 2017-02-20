@@ -40,18 +40,6 @@
             </intent-filter>
         </activity>
 ```
-* 在 `MainActivity` 添加
 
-```java
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-    
-        setTheme(R.style.AppTheme);
-        
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
-
-```
 
 
