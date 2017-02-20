@@ -18,9 +18,9 @@
 
 ```
 
-* 在 
+* 在 `style.xml` 
 
 ```xml
-style.xml
+
 
 ```
