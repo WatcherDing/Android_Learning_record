@@ -18,7 +18,7 @@
 
 ```
 
-* 在 `style.xml` 
+* 在 `style.xml` 中添加一个新的主题
 
 ```xml
     <style name="AppTheme.Launcher">
