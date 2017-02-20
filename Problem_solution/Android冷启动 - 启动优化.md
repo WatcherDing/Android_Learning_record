@@ -31,7 +31,8 @@
 * 添加启动的activity的theme
 ```xml
 <activity android:name=".MainActivity"
- +           android:theme="@style/AppTheme.Launcher">
+
+ +           android:theme="@style/AppTheme.Launcher"><!-- 添加 该属性-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
