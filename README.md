@@ -13,9 +13,6 @@
 * [baseAdapter](https://github.com/hongyangAndroid/baseAdapter) - Android 万能的Adapter
 
 
-
-
-
 ### 开发使用框架
 
 #####加载图片
