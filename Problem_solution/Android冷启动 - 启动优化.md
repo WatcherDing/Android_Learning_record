@@ -17,3 +17,10 @@
 </layer-list>
 
 ```
+
+* 在 
+
+```xml
+style.xml
+
+```
