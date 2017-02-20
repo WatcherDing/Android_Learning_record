@@ -27,5 +27,6 @@
         <item name="android:windowBackground">@drawable/launch_screen</item>
     </style>
 ```
+
 * 添加启动的activity的theme
 
