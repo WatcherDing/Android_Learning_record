@@ -2,8 +2,8 @@
 ###介绍：
     Android启动时候默认有短暂的白屏现象
 ###方法
-* 在
+* 在 `drawable` 下新建 `launch_screen.xml` 
 
 ```js
-launch_screen.xml
+
 ```
