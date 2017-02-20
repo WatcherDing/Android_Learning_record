@@ -11,12 +11,7 @@
 * [awesome-android-ui](https://github.com/hongyangAndroid/AndroidAutoLayout) - 优秀的android-ui
 * [PickPhotoSample](https://github.com/Werb/PickPhotoSample) - 像微信一样的图片选择器
 * [Android 优化启动速度（冷启动）](./Problem_solution/Android冷启动 - 启动优化.md) 
-* [Android 优化启动速度（冷启动）](https://github.com/wasabeef/glide-transformations
-
-
-
-
-) 
+* [Android 优化启动速度（冷启动）](https://github.com/wasabeef/glide-transformations) 
 
 
 
