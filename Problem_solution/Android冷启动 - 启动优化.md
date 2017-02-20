@@ -30,3 +30,6 @@
 
 * 添加启动的activity的theme
 
+
+
+
