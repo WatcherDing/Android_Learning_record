@@ -13,7 +13,6 @@
 - ItemDecoration
 - ItemAnimator
 
-
 ##RecyclerView 能干什么
 - List
 - GridView
@@ -22,6 +21,19 @@
 - 瀑布流
 - 定制Item增加和删除动画
 
+##如何使用
+
+*  layout.xml添加
+
+```xml
+  <android.support.v7.app.AlertController.RecycleListView
+         android:id="@+id/recycleListView"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent">
+
+   </android.support.v7.app.AlertController.RecycleListView>
+
+```
 
 
 
