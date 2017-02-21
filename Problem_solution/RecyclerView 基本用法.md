@@ -12,3 +12,14 @@
 - Layoutmanager
 - ItemDecoration
 - ItemAnimator
+
+
+##RecyclerView 能干什么
+- List
+- GridView
+- 横向List
+- 横向GridView
+- 瀑布流
+- 定制Item增加和删除动画
+
+
