@@ -34,7 +34,7 @@ dependencies {
 
 ```xml
     <android.support.v7.widget.RecyclerView
-         android:id="@+id/recycleListView"
+         android:id="@+id/RecyclerView"
          android:layout_width="match_parent"
          android:layout_height="match_parent">
 
