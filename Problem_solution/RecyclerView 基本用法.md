@@ -23,6 +23,13 @@
 
 ##如何使用
 
+* app 目录下bulid.gradle添加
+```xml
+dependencies {
+    ...
+    compile 'com.android.support:recyclerview-v7:25.1.1'
+}       
+```
 *  layout.xml添加
 
 ```xml
