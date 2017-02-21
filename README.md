@@ -17,8 +17,8 @@
 #####加载图片
 
 * [glide](https://github.com/bumptech/glide) （推荐）
-* [picasso](https://github.com/square/picasso)
-* [Glide Transformations](https://github.com/wasabeef/glide-transformations)
+* [picasso](https://github.com/square/picasso) 
+* [Glide Transformations](https://github.com/wasabeef/glide-transformations) - 编辑图片（Glide）
 
 
 
