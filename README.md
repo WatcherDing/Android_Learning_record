@@ -24,7 +24,7 @@
 * [Glide Transformations](https://github.com/wasabeef/glide-transformations) - 编辑图片（Glide）
 
 #####网络请求
-* [retrofit](https://github.com/square/retrofit) - 网络请求
+* [retrofit](https://github.com/square/retrofit) 
 
 
 
