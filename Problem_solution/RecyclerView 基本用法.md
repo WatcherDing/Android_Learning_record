@@ -33,12 +33,12 @@ dependencies {
 *  layout.xml添加
 
 ```xml
-  <android.support.v7.app.AlertController.RecycleListView
+    <android.support.v7.widget.RecyclerView
          android:id="@+id/recycleListView"
          android:layout_width="match_parent"
          android:layout_height="match_parent">
 
-   </android.support.v7.app.AlertController.RecycleListView>
+     </android.support.v7.widget.RecyclerView>
 
 ```
 
