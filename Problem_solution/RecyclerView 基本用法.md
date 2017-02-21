@@ -5,3 +5,10 @@
 > 不关心Item间如何分割
 > 不关注Item增加与删除的动画效果
 > 仅仅关注如何回收和复用View
+
+##RecyclerView 相关的重要类
+- Adapter
+- ViewHolder
+- Layoutmanager
+- ItemDecoration
+- ItemAnimator
