@@ -12,8 +12,6 @@
 * [PickPhotoSample](https://github.com/Werb/PickPhotoSample) - 像微信一样的图片选择器
 * [baseAdapter](https://github.com/hongyangAndroid/baseAdapter) - Android 万能的Adapter
 
-
-https://github.com/hongyangAndroid/baseAdapter
 ### 开发使用框架
 
 #####加载图片
