@@ -24,7 +24,7 @@
 ##如何使用
 
 * app 目录下bulid.gradle添加
-```gradle
+```xml
 dependencies {
     ...
     compile 'com.android.support:recyclerview-v7:25.1.1'
