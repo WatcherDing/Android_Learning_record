@@ -15,7 +15,7 @@ compile 'com.squareup.retrofit2:retrofit:2.2.0'
 
 - 新建 `Service.java` 访问网络的接口应统一放在这个接口中
 
-```
+```java
 package com.retrofit.baseHttp;
 
 import retrofit2.Call;
