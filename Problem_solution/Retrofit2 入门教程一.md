@@ -85,4 +85,4 @@ public interface Service {
         });
     }
 ```
-- 运行就能在Android logcat中看到打印的信息
+- 运行就能在Android studio logcat中看到打印的信息 一大串HTML
