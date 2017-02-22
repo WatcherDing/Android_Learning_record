@@ -8,12 +8,28 @@
 compile 'com.squareup.retrofit2:retrofit:2.2.0'
 ```
 - 配置 `AndroidManifest.xml` 添加网络访问权限
+
 ```xml
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
-- 新建`Service.java`
+- 新建 `Service.java`
 
-```
-Service
+```java
+package com.retrofit.baseHttp;
+
+import retrofit2.Call;
+import retrofit2.http.GET;
+import retrofit2.http.Query;
+
+/**
+ * Created by DYW on 2017/2/22.
+ */
+
+public interface Service {
+    @GET("/")
+    Call<String> getBaidu(@Query("sort") String sort);
+}
+
+
 ```
