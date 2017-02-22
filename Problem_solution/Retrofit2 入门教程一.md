@@ -25,6 +25,4 @@ public interface Service {
     @GET("/")
     Call<String> getBaidu();
 }
-
-
 ```
