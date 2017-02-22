@@ -73,6 +73,7 @@ public interface Service {
             //访问成功的回调
             @Override
             public void onResponse(Call<String> call, Response<String> response) {
+               //这里response.body()的类型就是我们转化成的String类型
                Log.e("请求成功，数据:", response.body());
             }
 
