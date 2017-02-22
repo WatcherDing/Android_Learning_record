@@ -66,17 +66,17 @@ public interface Service {
                     }
                 })
                 .build();
-
+        //创建访问实体化
         Call<String> call = retrofit.create(Service.class).getBaidu();
-        //访问网络回调
+        //enqueue 是访问网络异步
         call.enqueue(new Callback<String>() {
-            //访问成功
+            //访问成功的回调
             @Override
             public void onResponse(Call<String> call, Response<String> response) {
                Log.e("请求成功，数据:", response.body());
             }
 
-            //访问失败
+            //访问失败的回调用
             @Override
             public void onFailure(Call<String> call, Throwable t) {
                 Log.e("请求失败","error");
