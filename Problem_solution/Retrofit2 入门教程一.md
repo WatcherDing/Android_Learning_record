@@ -33,5 +33,5 @@ public interface Service {
 ```
 上面代码只需要知道：
     - @GET 是GET请求
-    - @POST是POST请求
+    - @POST 是POST请求
     其它不明白没有问题，知道这些就够了，详细介绍会在下篇文章做介绍
