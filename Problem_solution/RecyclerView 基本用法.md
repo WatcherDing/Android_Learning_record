@@ -37,7 +37,7 @@ dependencies {
          android:id="@+id/RecyclerView"
          android:layout_width="match_parent"
          android:layout_height="match_parent">
-
+         
      </android.support.v7.widget.RecyclerView>
 ```
 
