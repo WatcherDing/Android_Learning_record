@@ -2,8 +2,18 @@
 
 >retrofit是现在Android开发者中最受欢迎的框架之一，squareup出品，retrofit功能十分强大。
 
-- 配置 `build.gradle` 
+- 配置 `build.gradle` 添加依赖 
 
 ```xml
 compile 'com.squareup.retrofit2:retrofit:2.2.0'
+```
+- 配置 `AndroidManifest.xml` 添加网络访问权限
+```xml
+<uses-permission android:name="android.permission.INTERNET"/>
+```
+
+- 新建`Service.java`
+
+```
+Service
 ```
