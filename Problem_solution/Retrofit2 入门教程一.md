@@ -44,9 +44,14 @@ public interface Service {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //创建访问的操作
+        //创建访问前的配置信息
         Retrofit retrofit = new Retrofit.Builder()
+                //访问的url地址主目录
                 .baseUrl("http://www.baidu.com")
+                //转化器，这里是将访问返回的数据转化为String
+                //可以根据自己的需求，转化成任意类型
+                // 以后会介绍开源的转化库一行代码就解决
+                // 但是依然要求我们需要知道有这么个方法
                 .addConverterFactory(new Converter.Factory() {
                     @Override
                     public Converter<ResponseBody, ?> responseBodyConverter(Type type, Annotation[] annotations, Retrofit retrofit) {
