@@ -85,3 +85,4 @@ public interface Service {
         });
     }
 ```
+- 运行就能在Android logcat中看到打印的信息
