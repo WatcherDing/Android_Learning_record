@@ -36,3 +36,44 @@ public interface Service {
     - @GET 是GET请求
     - @POST 是POST请求
     其它不明白没有问题，知道这些就够了，详细介绍会在下篇文章做介绍
+
+- `MainActivity.java` 添加代码
+
+```java
+@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        //创建访问的操作
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://www.baidu.com")
+                .addConverterFactory(new Converter.Factory() {
+                    @Override
+                    public Converter<ResponseBody, ?> responseBodyConverter(Type type, Annotation[] annotations, Retrofit retrofit) {
+                        return new Converter<ResponseBody, String>() {
+                            @Override
+                            public String convert(ResponseBody value) throws IOException {
+                                return value.string();
+                            }
+                        };
+                    }
+                })
+                .build();
+
+        Call<String> call = retrofit.create(Service.class).getBaidu();
+        //访问网络回调
+        call.enqueue(new Callback<String>() {
+            //访问成功
+            @Override
+            public void onResponse(Call<String> call, Response<String> response) {
+               Log.e("请求成功，数据:", response.body());
+            }
+
+            //访问失败
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+                Log.e("请求失败","error");
+            }
+        });
+    }
+```
