@@ -5,7 +5,5 @@
 - 配置 `build.gradle` 
 
 ```
-
 compile 'com.squareup.retrofit2:retrofit:2.2.0'
-
 ```
