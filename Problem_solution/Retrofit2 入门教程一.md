@@ -13,7 +13,7 @@ compile 'com.squareup.retrofit2:retrofit:2.2.0'
 <uses-permission android:name="android.permission.INTERNET"/>
 ```
 
-- 新建 `Service.java`
+- 新建 `Service.java` 访问网络的接口应统一放在这个接口中
 
 ```java
 package com.retrofit.baseHttp;
@@ -21,11 +21,7 @@ package com.retrofit.baseHttp;
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
-
-/**
- * Created by DYW on 2017/2/22.
- */
-
+//
 public interface Service {
     @GET("/")
     Call<String> getBaidu(@Query("sort") String sort);
