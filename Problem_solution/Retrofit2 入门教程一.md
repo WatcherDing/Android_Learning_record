@@ -58,6 +58,8 @@ public interface Service {
                         return new Converter<ResponseBody, String>() {
                             @Override
                             public String convert(ResponseBody value) throws IOException {
+                                //设置返回数据类型
+                                //string(); bytes();等等转化方法
                                 return value.string();
                             }
                         };
