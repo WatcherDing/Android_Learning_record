@@ -124,7 +124,7 @@ public class FoodList {
 }
 
 ```
-- 修改接口
+- 修改接口的泛型为我们创建的FoodList类型
 ```java
 
 public interface Service {
