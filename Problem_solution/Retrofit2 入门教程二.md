@@ -139,7 +139,6 @@ public interface Service {
 ```
 - 修改
 
-
 ```java
      void getFood() {
         Retrofit retrofit = new Retrofit.Builder()
@@ -162,3 +161,5 @@ public interface Service {
 
 
 ```
+
+- 运行后就看到![](/assets/20170223212856.png)
