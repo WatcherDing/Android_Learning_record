@@ -120,37 +120,42 @@ public class FoodList {
         private String summary;
         @SerializedName("symptom")
         private String symptom;
+        //get set 方法
+        //....
     }
 }
 
 ```
 - 修改接口的泛型为我们创建的FoodList类型
 ```java
-
 public interface Service {
+    //修改接口的泛型为我们创建的FoodList类型
     @GET("/api/food/list")
     Call<FoodList> getFood(@Query("id")int id, @Query("rows")int rows);
 }
 ```
+- 修改
 
 
 ```java
- /*.addConverterFactory(new Converter.Factory() {
-                    @Override
-                    public Converter<ResponseBody, String> responseBodyConverter(
-                            Type type,
-                            Annotation[] annotations,
-                            Retrofit retrofit) {
-                        return new Converter<ResponseBody, String>() {
-                            @Override
-                            public String convert(ResponseBody value) throws IOException {
-                                return value.string();
-                            }
-                        };
-                    }
-                })
-*/
-.addConverterFactory(GsonConverterFactory.create())
+     void getFood() {
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://www.tngou.net")
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        Call<FoodList> call = retrofit.create(Service.class).getFood(3,10);
+        call.enqueue(new Callback<FoodList>() {
+            @Override
+            public void onResponse(Call<FoodList> call, Response<FoodList> response) {
+                FoodList list=  response.body();
+            }
+            //访问失败的回调用
+            @Override
+            public void onFailure(Call<FoodList> call, Throwable t) {
+                Log.e("请求失败", "error");
+            }
+        });
+    }
 
 
 ```
