@@ -76,4 +76,8 @@ void getFood() {
 `@GET("/api/food/list")` 会添加在`Retrofit`的`baseUrl` 之后。参数在`Call<String> call = retrofit.create(Service.class).getFood(3,10);` getFood是接口的名字，3对应id，10对应rows会追加到`http://www.tngou.net/api/food/list
  `之后，组成 `http://www.tngou.net/api/food/list?id=3&rows=10`
 
+- 服务器返回的数据是json类型，现在获取到的是`String`难道需要我们在 请求成功回调后的方法中手动转化吗？不是的。`squareup` 提供了转化的工具包`converter-gson`,添加依赖
+```xml
+ compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+```
 
