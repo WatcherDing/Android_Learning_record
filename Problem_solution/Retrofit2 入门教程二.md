@@ -121,7 +121,7 @@ public class FoodList {
         @SerializedName("symptom")
         private String symptom;
         //get set 方法
-        //....
+        //...
     }
 }
 
