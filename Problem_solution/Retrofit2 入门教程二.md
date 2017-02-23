@@ -27,10 +27,6 @@
 }
 ```
 
-- 添加依赖 `build.gradle` 帮助我们解析json数据的工具
-```
-    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
-```
 - 添加接口 
 
 ```java
@@ -38,17 +34,46 @@
 public interface Service {
     @GET("/api/food/list")
     Call<String> getFood(@Query("id")int id,@Query("rows")int rows);
-
-    @GET("/")
-    Call<String> getBaidu();
-
-    @POST("/")
-    Call<String> getGoogle();
-
-
 }
 
 ```
+- 访问接口
+```java
+void getFood() {
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://www.tngou.net")
+                .addConverterFactory(new Converter.Factory() {
+                    @Override
+                    public Converter<ResponseBody, String> responseBodyConverter(
+                            Type type,
+                            Annotation[] annotations,
+                            Retrofit retrofit) {
+                        return new Converter<ResponseBody, String>() {
+                            @Override
+                            public String convert(ResponseBody value) throws IOException {
+                                return value.string();
+                            }
+                        };
+                    }
+                }).build();
+        Call<String> call = retrofit.create(Service.class).getFood(3,10);
 
+        call.enqueue(new Callback<String>() {
+            @Override
+            public void onResponse(Call<String> call, Response<String> response) {
+                Log.e("请求成功，数据:", response.body());
+            }
+            //访问失败的回调用
+            @Override
+            public void onFailure(Call<String> call, Throwable t) {
+                Log.e("请求失败", "error");
+            }
+        });
+    }
+```
+- 运行就能看到输出的数据：![](/assets/20170223205459.png)
+- 现在上面估计你已经明白链接是怎么组成的，在接口中声明的
+`@GET("/api/food/list")` 会添加在`Retrofit`的`baseUrl` 之后。参数在`Call<String> call = retrofit.create(Service.class).getFood(3,10);` getFood是接口的名字，3对应id，10对应rows会追加到`http://www.tngou.net/api/food/list
+ `之后，组成 `http://www.tngou.net/api/food/list?id=3&rows=10`
 
 
