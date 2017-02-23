@@ -80,4 +80,24 @@ void getFood() {
 ```xml
  compile 'com.squareup.retrofit2:converter-gson:2.2.0'
 ```
-- 
+- 修改我们之前的代码
+
+```java
+ /*.addConverterFactory(new Converter.Factory() {
+                    @Override
+                    public Converter<ResponseBody, String> responseBodyConverter(
+                            Type type,
+                            Annotation[] annotations,
+                            Retrofit retrofit) {
+                        return new Converter<ResponseBody, String>() {
+                            @Override
+                            public String convert(ResponseBody value) throws IOException {
+                                return value.string();
+                            }
+                        };
+                    }
+                })*/
+                .addConverterFactory(GsonConverterFactory.create())
+
+
+```
