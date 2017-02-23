@@ -31,7 +31,24 @@
 ```
     compile 'com.squareup.retrofit2:converter-gson:2.2.0'
 ```
+- 添加接口 
 
+```java
+
+public interface Service {
+    @GET("/api/food/list")
+    Call<String> getFood(@Query("id")int id,@Query("rows")int rows);
+
+    @GET("/")
+    Call<String> getBaidu();
+
+    @POST("/")
+    Call<String> getGoogle();
+
+
+}
+
+```
 
 
 
