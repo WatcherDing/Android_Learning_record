@@ -127,6 +127,10 @@ public class FoodList {
 - 修改接口
 ```java
 
+public interface Service {
+    @GET("/api/food/list")
+    Call<FoodList> getFood(@Query("id")int id, @Query("rows")int rows);
+}
 ```
 
 
