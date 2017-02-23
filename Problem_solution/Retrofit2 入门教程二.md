@@ -120,6 +120,7 @@ public class FoodList {
         private String summary;
         @SerializedName("symptom")
         private String symptom;
+        
         //get set 方法
         //...
     }
