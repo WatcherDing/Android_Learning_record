@@ -80,7 +80,55 @@ void getFood() {
 ```xml
  compile 'com.squareup.retrofit2:converter-gson:2.2.0'
 ```
-- 修改我们之前的代码
+- 首先我们需要创建一个`Food.java`,（推荐使用GsonFormat插件创建）
+
+```java
+import com.google.gson.annotations.SerializedName;
+
+import java.util.List;
+
+public class Food{
+    @SerializedName("status")
+    private boolean status;
+    @SerializedName("total")
+    private int total;
+    @SerializedName("tngou")
+    private List<TngouBean> tngou;
+
+    public static class TngouBean {
+        @SerializedName("count")
+        private int count;
+        @SerializedName("description")
+        private String description;
+        @SerializedName("disease")
+        private String disease;
+        @SerializedName("fcount")
+        private int fcount;
+        @SerializedName("food")
+        private String food;
+        @SerializedName("id")
+        private int id;
+        @SerializedName("img")
+        private String img;
+        @SerializedName("keywords")
+        private String keywords;
+        @SerializedName("name")
+        private String name;
+        @SerializedName("rcount")
+        private int rcount;
+        @SerializedName("summary")
+        private String summary;
+        @SerializedName("symptom")
+        private String symptom;
+    }
+}
+
+```
+- 修改接口
+```java
+
+```
+
 
 ```java
  /*.addConverterFactory(new Converter.Factory() {
@@ -98,7 +146,7 @@ void getFood() {
                     }
                 })
 */
-                .addConverterFactory(GsonConverterFactory.create())
+.addConverterFactory(GsonConverterFactory.create())
 
 
 ```
