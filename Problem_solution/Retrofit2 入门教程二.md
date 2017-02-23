@@ -87,7 +87,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class Food{
+public class Food {
     @SerializedName("status")
     private boolean status;
     @SerializedName("total")
