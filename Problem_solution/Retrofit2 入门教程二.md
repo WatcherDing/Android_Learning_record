@@ -27,3 +27,9 @@
 }
 ```
 
+- 添加依赖 `build.gradle` 帮助我们解析json数据的工具
+```
+    compile 'com.squareup.retrofit2:converter-gson:2.2.0'
+```
+
+
