@@ -93,6 +93,7 @@
         recycleview.setAdapter(new CommonAdapter<FoodList.TngouBean>(this,R.layout.item,list) {
             @Override
             protected void convert(ViewHolder holder, FoodList.TngouBean tngouBean, int position) {
+                //设置id为textView的组件Text为tngouBean.getName()
                 holder.setText(R.id.textView,tngouBean.getName());
                 ImageView imageView = holder.getView(R.id.imageView);
                 //Glide加载图片的库
@@ -111,3 +112,4 @@
         });
     }
 ```
+- 运行显示结果：![](/assets/S70224-22360936.jpg)
