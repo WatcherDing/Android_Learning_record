@@ -40,3 +40,25 @@
 </LinearLayout>
 
 ```
+
+- 在 `onCreate` 方法调用`initView();`
+
+```java
+    private RecyclerView recycleview;
+    public void initview(){
+        recycleview = (RecyclerView) findViewById(R.id.recyclerView);
+        recycleview.setLayoutManager(getLayoutManager());
+    }
+    public LinearLayoutManager getLayoutManager() {
+
+        LinearLayoutManager mLayoutManager = new LinearLayoutManager(this) {
+            //重写这个方法是为了防止在ScrollView下的recycleview滑动卡顿
+            @Override
+            public boolean canScrollVertically() {
+                return false;
+            }
+        };
+        mLayoutManager.setOrientation(OrientationHelper.VERTICAL);
+        return mLayoutManager;
+    }
+```
