@@ -63,17 +63,39 @@
     }
 ```
 - 添加设置布局方法
+
 ```java
+    void getFood() {
+        Retrofit retrofit = new Retrofit.Builder()
+                .baseUrl("http://www.tngou.net")
+                //使用引入的工具包，将返回的数据转化成FoodList对象
+                .addConverterFactory(GsonConverterFactory.create())
+                .build();
+        //FoodList类型
+        Call<FoodList> call = retrofit.create(Service.class).getFood(3,10);
+        call.enqueue(new Callback<FoodList>() {
+            @Override
+            public void onResponse(Call<FoodList> call, Response<FoodList> response) {
+                //response.body()返回的类型也是FoodList
+              List   list=  response.body().getTngou();
+                setData(list);
+            }
+            //访问失败的回调用
+            @Override
+            public void onFailure(Call<FoodList> call, Throwable t) {
+                Log.e("请求失败", "error");
+            }
+        });
+    }
 
 
-
-    public void setData(List list){
-        list.size();
+    public void setData(List list)
         recycleview.setAdapter(new CommonAdapter<FoodList.TngouBean>(this,R.layout.item,list) {
             @Override
             protected void convert(ViewHolder holder, FoodList.TngouBean tngouBean, int position) {
                 holder.setText(R.id.textView,tngouBean.getName());
                 ImageView imageView = holder.getView(R.id.imageView);
+                //Glide加载图片的库
                 Glide.with(mContext)
                         .load("http://tnfs.tngou.net/image"+tngouBean.getImg())
                         .error(R.mipmap.ic_launcher) //加载图片失败的时候显示的默认图
@@ -81,7 +103,9 @@
                         .diskCacheStrategy(DiskCacheStrategy.ALL)//图片缓存策略,这个一般必须有
                         .crossFade()//淡入淡出
                         .centerCrop()
+                        //这是圆角
                         .bitmapTransform(new RoundedCornersTransformation(MainActivity.this, 30, 0, RoundedCornersTransformation.CornerType.ALL))
+                        //添加到imageView中
                         .into(imageView);
             }
         });
