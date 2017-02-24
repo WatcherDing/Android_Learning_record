@@ -14,7 +14,29 @@
 ```
  
 - 新建`item.xml` item布局非常简单
-```xml
 
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="100px"
+        android:layout_height="100px"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:id="@+id/imageView"
+        />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_weight="1" />
+
+</LinearLayout>
 
 ```
