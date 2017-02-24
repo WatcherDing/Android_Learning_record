@@ -103,7 +103,7 @@
                         .diskCacheStrategy(DiskCacheStrategy.ALL)//图片缓存策略,这个一般必须有
                         .crossFade()//淡入淡出
                         .centerCrop()
-                        //这是圆角
+                        //设置圆角
                         .bitmapTransform(new RoundedCornersTransformation(MainActivity.this, 30, 0, RoundedCornersTransformation.CornerType.ALL))
                         //添加到imageView中
                         .into(imageView);
