@@ -13,4 +13,7 @@
     
 ```
  
-- 新建`item.xml` item布局
+- 新建`item.xml` item布局非常简单
+```java
+
+```
