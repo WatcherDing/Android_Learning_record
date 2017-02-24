@@ -62,3 +62,28 @@
         return mLayoutManager;
     }
 ```
+- 添加设置布局方法
+```java
+
+
+
+    public void setData(List list){
+        list.size();
+        recycleview.setAdapter(new CommonAdapter<FoodList.TngouBean>(this,R.layout.item,list) {
+            @Override
+            protected void convert(ViewHolder holder, FoodList.TngouBean tngouBean, int position) {
+                holder.setText(R.id.textView,tngouBean.getName());
+                ImageView imageView = holder.getView(R.id.imageView);
+                Glide.with(mContext)
+                        .load("http://tnfs.tngou.net/image"+tngouBean.getImg())
+                        .error(R.mipmap.ic_launcher) //加载图片失败的时候显示的默认图
+                        .placeholder(R.mipmap.ic_launcher)//图片加载之前的显示的图片
+                        .diskCacheStrategy(DiskCacheStrategy.ALL)//图片缓存策略,这个一般必须有
+                        .crossFade()//淡入淡出
+                        .centerCrop()
+                        .bitmapTransform(new RoundedCornersTransformation(MainActivity.this, 30, 0, RoundedCornersTransformation.CornerType.ALL))
+                        .into(imageView);
+            }
+        });
+    }
+```
