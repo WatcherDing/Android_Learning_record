@@ -1,134 +1,46 @@
 # Android 混淆知识点
 
-#### 基本的不需要混淆的
+#### 配置语法
 ```xml
+-include {filename}    从给定的文件中读取配置参数 
+-basedirectory {directoryname}    指定基础目录为以后相对的档案名称 
+-injars {class_path}    指定要处理的应用程序jar,war,ear和目录 
+-outjars {class_path}    指定处理完后要输出的jar,war,ear和目录的名称 
+-libraryjars {classpath}    指定要处理的应用程序jar,war,ear和目录所需要的程序库文件 
+-dontskipnonpubliclibraryclasses    指定不去忽略非公共的库类。 
+-dontskipnonpubliclibraryclassmembers    指定不去忽略包可见的库类的成员。
 
--keep public class * extends android.app.Activity
--keep public class * extends android.app.Application
--keep public class * extends android.app.Service
--keep public class * extends android.content.BroadcastReceiver
--keep public class * extends android.content.ContentProvider
--keep public class * extends android.app.backup.BackupAgentHelper
--keep public class * extends android.preference.Preference
--keep public class * extends android.view.View
--keep public class com.android.vending.licensing.ILicensingService
--keep class android.support.** {*;}
+保留选项 
+-keep {Modifier} {class_specification}    保护指定的类文件和类的成员 
+-keepclassmembers {modifier} {class_specification}    保护指定类的成员，如果此类受到保护他们会保护的更好
+-keepclasseswithmembers {class_specification}    保护指定的类和类的成员，但条件是所有指定的类和类成员是要存在。 
+-keepnames {class_specification}    保护指定的类和类的成员的名称（如果他们不会压缩步骤中删除） 
+-keepclassmembernames {class_specification}    保护指定的类的成员的名称（如果他们不会压缩步骤中删除） 
+-keepclasseswithmembernames {class_specification}    保护指定的类和类的成员的名称，如果所有指定的类成员出席（在压缩步骤之后） 
+-printseeds {filename}    列出类和类的成员-keep选项的清单，标准输出到给定的文件 
 
--keepclasseswithmembernames class * {
-    native <methods>;
-}
--keepclassmembers class * extends android.app.Activity{
-    public void *(android.view.View);
-}
--keepclassmembers enum * {
-    public static **[] values();
-    public static ** valueOf(java.lang.String);
-}
--keep public class * extends android.view.View{
-    *** get*();
-    void set*(***);
-    public <init>(android.content.Context);
-    public <init>(android.content.Context, android.util.AttributeSet);
-    public <init>(android.content.Context, android.util.AttributeSet, int);
-}
--keepclasseswithmembers class * {
-    public <init>(android.content.Context, android.util.AttributeSet);
-    public <init>(android.content.Context, android.util.AttributeSet, int);
-}
--keep class * implements android.os.Parcelable {
-  public static final android.os.Parcelable$Creator *;
-}
--keepclassmembers class * implements java.io.Serializable {
-    static final long serialVersionUID;
-    private static final java.io.ObjectStreamField[] serialPersistentFields;
-    private void writeObject(java.io.ObjectOutputStream);
-    private void readObject(java.io.ObjectInputStream);
-    java.lang.Object writeReplace();
-    java.lang.Object readResolve();
-}
--keep class **.R$* {
- *;
-}
--keepclassmembers class * {
-    void *(**On*Event);
-}
-```
+压缩 
+-dontshrink    不压缩输入的类文件 
+-printusage {filename} 
+-whyareyoukeeping {class_specification}     
 
-#### 实体类
+优化 
+-dontoptimize    不优化输入的类文件 
+-assumenosideeffects {class_specification}    优化时假设指定的方法，没有任何副作用 
+-allowaccessmodification    优化时允许访问并修改有修饰符的类和类的成员 
 
-```
-    -keep class com.example.a12348.test.Bean.** { *; }
-```
+混淆 
+-dontobfuscate    不混淆输入的类文件 
+-printmapping {filename} 
+-applymapping {filename}    重用映射增加混淆 
+-obfuscationdictionary {filename}    使用给定文件中的关键字作为要混淆方法的名称 
+-overloadaggressively    混淆时应用侵入式重载 
+-useuniqueclassmembernames    确定统一的混淆类的成员名称来增加混淆 
+-flattenpackagehierarchy {package_name}    重新包装所有重命名的包并放在给定的单一包中 
+-repackageclass {package_name}    重新包装所有重命名的类文件中放在给定的单一包中 
+-dontusemixedcaseclassnames    混淆时不会产生形形色色的类名 
+-keepattributes {attribute_name,...}    保护给定的可选属性，例如LineNumberTable, LocalVariableTable, SourceFile, Deprecated, Synthetic, Signature, and 
 
-#### Butter Knife
-
+InnerClasses. 
+-renamesourcefileattribute {string}    设置源文件中给定的字符串常量
 ```
-    -keep class butterknife.** { *; }
--dontwarn butterknife.internal.**
--keep class **$$ViewBinder { *; }
--keepclasseswithmembernames class * {
-    @butterknife.* <fields>;
-}
--keepclasseswithmembernames class * {
-    @butterknife.* <methods>;
-}
-```
-#### Retrofit
-
-```
-    # Retrofit
-    -dontwarn  okhttp3.*
-    -dontnote okhttp3.**
-    -keep class okhttp3.* { *; }
-    -dontnote retrofit2.**
-    -dontwarn retrofit2.**
-    -keep class retrofit2.** { *; }
-    -keepattributes Signature
-    -keepattributes Exceptions
-```
-
-#### RxJava RxAndroid
-```
-# RxJava RxAndroid
--dontwarn sun.misc.**
--keepclassmembers class rx.internal.util.unsafe.*ArrayQueue*Field* {
-   long producerIndex;
-   long consumerIndex;
-}
--keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueProducerNodeRef {
-    rx.internal.util.atomic.LinkedQueueNode producerNode;
-}
--keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueConsumerNodeRef {
-    rx.internal.util.atomic.LinkedQueueNode consumerNode;
-}
-```
-
-#### Gson
-```
-# Gson
--keepattributes Signature
--keepattributes *Annotation*
--keep class com.google.gson.stream.** { *; }
-
-```
-
-#### Glide
-```
-# Glide
--keep public class * implements com.bumptech.glide.module.GlideModule
--keep public enum com.bumptech.glide.load.resource.bitmap.ImageHeaderParser$** {
-  **[] $VALUES;
-  public *;
-}
-```
-
-#### Glide
-```
-# dagger
--dontwarn dagger.**
--dontwarn com.squareup.javapoet.**
--dontwarn com.google.common.**
-
-```
-
-
