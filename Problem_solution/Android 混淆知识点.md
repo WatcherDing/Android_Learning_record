@@ -1,6 +1,6 @@
 # Android 混淆知识点
 
-- 基本的不需要混淆的
+#### 基本的不需要混淆的
 ```xml
 
 -keep public class * extends android.app.Activity
@@ -54,8 +54,53 @@
 }
 ```
 
-- 实体类
+#### 实体类
 
 ```
     -keep class com.example.a12348.test.Bean.** { *; }
+```
+
+#### Butter Knife
+
+```
+    -keep class butterknife.** { *; }
+-dontwarn butterknife.internal.**
+-keep class **$$ViewBinder { *; }
+-keepclasseswithmembernames class * {
+    @butterknife.* <fields>;
+}
+-keepclasseswithmembernames class * {
+    @butterknife.* <methods>;
+}
+```
+#### Retrofit
+
+```
+    # Retrofit
+    -dontwarn  okhttp3.*
+    -dontnote okhttp3.**
+    -keep class okhttp3.* { *; }
+    -dontnote retrofit2.**
+    -dontwarn retrofit2.**
+    -keep class retrofit2.** { *; }
+    -keepattributes Signature
+    -keepattributes Exceptions
+```
+
+#### RxJava RxAndroid
+
+
+```
+# RxJava RxAndroid
+-dontwarn sun.misc.**
+-keepclassmembers class rx.internal.util.unsafe.*ArrayQueue*Field* {
+   long producerIndex;
+   long consumerIndex;
+}
+-keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueProducerNodeRef {
+    rx.internal.util.atomic.LinkedQueueNode producerNode;
+}
+-keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueConsumerNodeRef {
+    rx.internal.util.atomic.LinkedQueueNode consumerNode;
+}
 ```
