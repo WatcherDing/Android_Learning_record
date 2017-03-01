@@ -122,3 +122,13 @@
 }
 ```
 
+#### Glide
+```
+# dagger
+-dontwarn dagger.**
+-dontwarn com.squareup.javapoet.**
+-dontwarn com.google.common.**
+
+```
+
+
