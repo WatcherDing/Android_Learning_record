@@ -88,8 +88,6 @@
 ```
 
 #### RxJava RxAndroid
-
-
 ```
 # RxJava RxAndroid
 -dontwarn sun.misc.**
@@ -103,4 +101,13 @@
 -keepclassmembers class rx.internal.util.unsafe.BaseLinkedQueueConsumerNodeRef {
     rx.internal.util.atomic.LinkedQueueNode consumerNode;
 }
+```
+
+#### Gson
+```
+# Gson
+-keepattributes Signature
+-keepattributes *Annotation*
+-keep class com.google.gson.stream.** { *; }
+
 ```
