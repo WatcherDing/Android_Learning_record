@@ -1,7 +1,8 @@
 # Android 混淆知识点
+
+- 基本的不需要混淆的
 ```xml
 
-#---------------------------------默认保留区---------------------------------
 -keep public class * extends android.app.Activity
 -keep public class * extends android.app.Application
 -keep public class * extends android.app.Service
@@ -51,8 +52,10 @@
 -keepclassmembers class * {
     void *(**On*Event);
 }
-#----------------------------------------------------------------------------
-
-
 ```
 
+- 实体类
+
+```
+-keep class com.example.a12348.test.Bean.** { *; }
+```
