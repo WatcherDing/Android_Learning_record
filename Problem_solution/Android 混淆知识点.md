@@ -57,5 +57,5 @@
 - 实体类
 
 ```
--keep class com.example.a12348.test.Bean.** { *; }
+    -keep class com.example.a12348.test.Bean.** { *; }
 ```
