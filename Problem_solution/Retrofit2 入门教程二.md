@@ -1,4 +1,4 @@
-# Retrofit2 入门教程一
+# Retrofit2 入门教程二
 
 >这次我们使用 Retrofit2 访问这个链接地址 [http://www.tngou.net/api/food/list?id=3&rows=10](http://www.tngou.net/api/food/list?id=3&rows=10)
 
