@@ -15,6 +15,10 @@
 * [Android 优化启动速度（冷启动）](./Problem_solution/Android冷启动 - 启动优化.md) 
 * [微信和支付宝 支付](https://github.com/mayubao/Android-Pay) 
 * [SP 管理类](https://github.com/WhiteDG/EasySP) 
+* [打印调试日志框架](https://github.com/orhanobut/logger) 
+
+
+
 
 
 
