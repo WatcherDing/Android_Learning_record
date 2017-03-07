@@ -13,9 +13,14 @@
 * [PickPhotoSample](https://github.com/Werb/PickPhotoSample) - 像微信一样的图片选择器
 * [baseAdapter](https://github.com/hongyangAndroid/baseAdapter) - Android 万能的Adapter
 * [Android 优化启动速度（冷启动）](./Problem_solution/Android冷启动 - 启动优化.md) 
-* [微信和支付宝 支付](https://github.com/mayubao/Android-Pay) 
-* [SP 管理类](https://github.com/WhiteDG/EasySP) 
-* [打印调试日志框架](https://github.com/orhanobut/logger) 
+* [Android-Pay](https://github.com/mayubao/Android-Pay) - 微信和支付宝 支付
+* [EasySP](https://github.com/WhiteDG/EasySP) - SP 管理类
+* [logger](https://github.com/orhanobut/logger) - 打印调试日志框架
+* [SwipeToLoadLayout(https://github.com/Aspsine/SwipeToLoadLayout) - 上拉刷新下拉加载
+
+
+
+ 
 
 
 
