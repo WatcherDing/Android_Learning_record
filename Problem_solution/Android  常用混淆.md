@@ -1,4 +1,4 @@
-# Android 混淆知识点
+# Android 常用混淆
 
 #### 基本的不需要混淆的
 ```xml
@@ -55,7 +55,7 @@
 
 #### 实体类
 ```
-    -keep class com.example.a12348.test.Bean.** { *; }
+    -keep class com.example.test.Bean.** { *; }
 ```
 
 #### Butter Knife
