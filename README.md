@@ -27,12 +27,6 @@
 
 
 
-
-
-
-
-### 开发使用框架
-
 #####加载图片
 
 * [glide](https://github.com/bumptech/glide) （推荐）
@@ -44,6 +38,9 @@
 * [Retrofit2 入门教程一](./Problem_solution/Retrofit2 入门教程一.md)
 * [Retrofit2 入门教程二](./Problem_solution/Retrofit2 入门教程二.md)
 * [Retrofit2 入门教程三](./Problem_solution/Retrofit2 入门教程三.md)
+
+* [RxCache](https://github.com/VictorAlbertos/RxCache)  -  缓存
+
 
 
 
