@@ -41,6 +41,10 @@
 
 * [RxCache](https://github.com/VictorAlbertos/RxCache)  -  缓存
 * [gson](https://github.com/google/gson)  -  json解析
+* [dagger](https://github.com/square/dagger)  -  dagger注入
+
+
+
 
 
 
