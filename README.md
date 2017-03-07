@@ -17,7 +17,7 @@
 * [EasySP](https://github.com/WhiteDG/EasySP) - SP 管理类
 * [logger](https://github.com/orhanobut/logger) - 打印调试日志框架
 * [SwipeToLoadLayout](https://github.com/Aspsine/SwipeToLoadLayout) - 上拉刷新下拉加载
-* [MultiStateView](https://github.com/Kennyc1012/MultiStateView) - 不同状态显示不同视图 网络 无数据等
+* [MultiStateView](https://github.com/Kennyc1012/MultiStateView) - 不同状态显示不同视图 无网络 无数据等
 
 
 
