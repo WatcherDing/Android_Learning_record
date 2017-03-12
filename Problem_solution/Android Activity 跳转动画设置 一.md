@@ -103,7 +103,7 @@
          overridePendingTransition(R.anim.slide_right_in, R.anim.slide_left_out);
     ```
     
-#### 个人比较推荐使用方法一，因为使用方法二需要在启动时候设置和finish；关闭的时候也要设置，还要监听back按键等等。
+#### 个人比较推荐使用方法一，因为使用方法二需要在启动时候设置和finish；关闭的时候也要设置，还要监听back按键等等。很容易混乱
     
 
 
