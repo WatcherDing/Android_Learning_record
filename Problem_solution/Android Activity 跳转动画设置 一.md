@@ -15,7 +15,7 @@
 
 </set>
 ```
-- slide_left_out.xml
+- slide_right_in.xml
 
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -27,7 +27,9 @@
         android:toXDelta="0.0" />
 
 </set>```
-- slide_left_in.xml
+
+
+- slide_right_out.xml
 
 ```xml
 slide_right_in
