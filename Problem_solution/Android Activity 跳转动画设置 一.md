@@ -87,6 +87,9 @@
         android:theme="@style/AppTheme">
     </application>
     
+    
+    
+    
     <!--活着使用下面这个采用单个属性设置 设置activity属性 Theme -->
     <activity
     android:name=".View.xxxActivity"
