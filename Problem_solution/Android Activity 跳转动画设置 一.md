@@ -98,11 +98,12 @@
 ###使用方法二
     ```java
         // 启动activity 时候设置启动方式
-        //需要在startActivity之后就执行该方法overridePendingTransition（）
+        //需要在startActivity之后就执行该方法overridePendingTransition（进入动画，退出动画）；
          startActivity(intent);
          overridePendingTransition(R.anim.slide_right_in, R.anim.slide_left_out);
-    
     ```
+    
+#### 个人比较推荐使用方法一，因为使用方法二需要在启动时候设置和finish；关闭的时候也要设置，还要监听back按键等等。
     
 
 
