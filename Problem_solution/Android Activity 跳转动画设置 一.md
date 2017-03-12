@@ -93,6 +93,7 @@
     android:label="@string/xxxActivity"
     android:theme="@style/AppTheme" /> 
     ```
+    
 
 
 
