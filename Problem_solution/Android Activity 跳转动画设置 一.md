@@ -2,7 +2,7 @@
 
 ###创建动画文件
 
-- slide_left_in.xml (从屏幕左边进入)
+- slide_left_in.xml  (从屏幕左边进入)
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <set xmlns:android="http://schemas.android.com/apk/res/android" >
@@ -14,7 +14,7 @@
     
     </set>
     ```
-- slide_left_out.xml(从屏幕左边推出)
+- slide_left_out.xml  (从屏幕左边推出)
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
     <set xmlns:android="http://schemas.android.com/apk/res/android" >
