@@ -73,17 +73,16 @@
 ###使用方法一
 - 第一步
 ```xml
-    <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowAnimationStyle">@style/Animation_Activity</item>
     </style>
 ```
 - 第二步
 ```xml
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowAnimationStyle">@style/Animation_Activity</item>
-    </style>
+       <activity
+        android:name=".View.xxxActivity"
+        android:label="@string/xxxActivity"
+        android:theme="@style/AppTheme" />
 ```
 
 
