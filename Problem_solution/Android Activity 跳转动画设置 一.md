@@ -100,7 +100,7 @@
         // 启动activity 时候设置启动方式
         //需要在startActivity之后就执行该方法overridePendingTransition（）
          startActivity(intent);
-         overridePendingTransition(R.anim.in_from_right, R.anim.out_from_left);
+         overridePendingTransition(R.anim.slide_right_in, R.anim.slide_left_out);
     
     ```
     
