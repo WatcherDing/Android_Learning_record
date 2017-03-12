@@ -83,7 +83,7 @@
     <application
         ......
         android:theme="@style/AppTheme">
-    </application
+    </application>
 
     ```
 
