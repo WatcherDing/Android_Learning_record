@@ -14,7 +14,19 @@
     
     </set>
     ```
-- slide_right_in.xml(从屏幕左边进入)
+- slide_left_out.xml(从屏幕左边推出)
+    ```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <set xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <translate
+            android:duration="200"
+            android:fromXDelta="0.0"
+            android:toXDelta="-100.0%p" />
+    
+    </set>
+    ```    
+- slide_right_in.xml
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -36,18 +48,6 @@
             android:duration="200"
             android:fromXDelta="100.0%p"
             android:toXDelta="0" />
-    
-    </set>
-    ```
-- slide_left_in.xml
-    ```xml
-    <?xml version="1.0" encoding="utf-8"?>
-    <set xmlns:android="http://schemas.android.com/apk/res/android" >
-    
-        <translate
-            android:duration="200"
-            android:fromXDelta="0.0"
-            android:toXDelta="100.0%p" />
     
     </set>
     ```
