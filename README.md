@@ -12,8 +12,19 @@
 * [PickPhotoSample](https://github.com/Werb/PickPhotoSample) - 像微信一样的图片选择器
 * [baseAdapter](https://github.com/hongyangAndroid/baseAdapter) - Android 万能的Adapter
 * [Android 优化启动速度（冷启动）](./Problem_solution/Android冷启动 - 启动优化.md) 
+* [Android-Pay](https://github.com/mayubao/Android-Pay) - 微信和支付宝 支付
+* [EasySP](https://github.com/WhiteDG/EasySP) - SP 管理类
+* [logger](https://github.com/orhanobut/logger) - 打印调试日志框架
+* [SwipeToLoadLayout](https://github.com/Aspsine/SwipeToLoadLayout) - 上拉刷新下拉加载
+* [MultiStateView](https://github.com/Kennyc1012/MultiStateView) - 不同状态显示不同视图 无网络 无数据等
 
-### 开发使用框架
+
+
+
+ 
+
+
+
 
 #####加载图片
 
@@ -26,6 +37,17 @@
 * [Retrofit2 入门教程一](./Problem_solution/Retrofit2 入门教程一.md)
 * [Retrofit2 入门教程二](./Problem_solution/Retrofit2 入门教程二.md)
 * [Retrofit2 入门教程三](./Problem_solution/Retrofit2 入门教程三.md)
+
+* [RxCache](https://github.com/VictorAlbertos/RxCache)  -  缓存
+* [gson](https://github.com/google/gson)  -  json解析
+* [dagger](https://github.com/square/dagger)  -  dagger注入
+* [rxandroid](https://github.com/ReactiveX/RxAndroid)  -  rxandroid 异步
+
+
+
+
+
+
 
 
 
