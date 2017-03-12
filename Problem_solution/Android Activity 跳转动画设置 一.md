@@ -42,8 +42,8 @@ slide_right_in
 
     <translate
         android:duration="200"
-        android:fromXDelta="-100.0%p"
-        android:toXDelta="0.0" />
+        android:fromXDelta="0.0"
+        android:toXDelta="100.0%p" />
 
 </set>
 ```
