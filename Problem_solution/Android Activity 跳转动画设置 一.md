@@ -2,48 +2,52 @@
 
 ###创建动画文件
 
-- slide_left_in.xml
+- slide_left_in.xml (从屏幕左边进入)
+    ```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <set xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <translate
+            android:duration="200"
+            android:fromXDelta="-100.0%p"
+            android:toXDelta="0.0" />
+    
+    </set>
+    ```
+- slide_right_in.xml(从屏幕左边进入)
 
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <translate
-        android:duration="200"
-        android:fromXDelta="-100.0%p"
-        android:toXDelta="0.0" />
-
-</set>
-```
-- slide_right_in.xml
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <translate
-        android:duration="200"
-        android:fromXDelta="-100.0%p"
-        android:toXDelta="0.0" />
-
-</set>```
-
-
+    ```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <set xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <translate
+            android:duration="200"
+            android:fromXDelta="-100.0%p"
+            android:toXDelta="0.0" />
+    
+    </set>
+    ```
 - slide_right_out.xml
-
-```xml
-slide_right_in
-```
+    ```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <set xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <translate
+            android:duration="200"
+            android:fromXDelta="100.0%p"
+            android:toXDelta="0" />
+    
+    </set>
+    ```
 - slide_left_in.xml
-
-```xml
-<?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android" >
-
-    <translate
-        android:duration="200"
-        android:fromXDelta="0.0"
-        android:toXDelta="100.0%p" />
-
-</set>
-```
+    ```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <set xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+        <translate
+            android:duration="200"
+            android:fromXDelta="0.0"
+            android:toXDelta="100.0%p" />
+    
+    </set>
+    ```
