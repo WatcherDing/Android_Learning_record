@@ -78,11 +78,13 @@
     </style>
 ```
 - 第二步
+
 ```xml
+        <!--设置activity属性 Theme -->
        <activity
         android:name=".View.xxxActivity"
         android:label="@string/xxxActivity"
-        android:theme="@style/AppTheme" />
+        android:theme="@style/AppTheme" /> 
 ```
 
 
