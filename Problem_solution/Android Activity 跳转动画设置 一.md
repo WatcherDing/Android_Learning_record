@@ -84,7 +84,6 @@
         ......
         android:theme="@style/AppTheme">
     </application>
-
     ```
 
 ```xml
