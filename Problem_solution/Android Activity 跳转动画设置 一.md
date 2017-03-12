@@ -68,5 +68,14 @@
  |activityOpenExitAnimation|activity还没有finish()下退出效果, 比如有俩个activity A与B 首先启动A 然后再启动B 那么A还没有finish()  这时A的退出效果。|   
  |activityCloseEnterAnimation|表示上一个activity返回进入效果 比如有俩个activity A与B  B在最上面，B退出(finish)后 A重新进入的效果|   
  |activityCloseExitAnimation|表示的是activity finish()之后的效果 比如有俩个activity A与B B退出后会被finish() 那么B的退出效果在这定义。|   
+ 
+ 
+###使用方法一
+```xml
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowAnimationStyle">@style/Animation_Activity</item>
+    </style>
+```
     
     
