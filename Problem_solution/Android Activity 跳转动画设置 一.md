@@ -70,4 +70,3 @@
  |activityCloseExitAnimation|表示的是activity finish()之后的效果 比如有俩个activity A与B B退出后会被finish() 那么B的退出效果在这定义。|   
     
     
-    [感谢参考](http://www.cnblogs.com/daxin/p/3516737.html)
