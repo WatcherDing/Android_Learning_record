@@ -1,6 +1,6 @@
 #Android Activity 跳转动画设置 
 
-###创建动画文件
+###anim下创建动画文件
 
 - slide_left_in.xml  (左边进入)
     ```xml
