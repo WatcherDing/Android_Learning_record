@@ -4,10 +4,10 @@
     ```xml
     <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
     ```
-- 4.4之后设置状态栏颜色
+- 设置是否全屏显示
 
     ```xml
-    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+     <item name="android:windowFullscreen">false</item>
     ```
 - 4.4之后设置状态栏颜色
 
