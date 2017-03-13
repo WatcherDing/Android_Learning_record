@@ -53,7 +53,7 @@
      android:textColor="?android:attr/textColorPrimaryInverse"
      android:textColor="?android:attr/textColorSecondaryInverse"
     ```
-- 从网络上找了个图片
+- 从网络上找了个图片，便于理解
     
     ![](/assets/20160329134244193.png)
        
