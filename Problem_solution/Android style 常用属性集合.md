@@ -37,3 +37,12 @@
      android:theme="@android:style/Theme.Translucent.NoTitleBar" // 半透明并无标题栏
      android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" // 半透明效果，无标题栏，全屏
 ```
+- Android 字体颜色
+
+```java
+ android:textColor="?android:attr/textColorPrimary"
+ android:textColor="?android:attr/textColorSecondary"
+ android:textColor="?android:attr/textColorTertiary"
+ android:textColor="?android:attr/textColorPrimaryInverse"
+ android:textColor="?android:attr/textColorSecondaryInverse"
+```
