@@ -38,6 +38,7 @@
          android:theme="@android:style/Theme.Translucent.NoTitleBar" // 半透明并无标题栏
          android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" // 半透明效果，无标题栏，全屏
     ```
+    
 - Android 字体大小
     ```java
     "?android:attr/textAppearanceLarge"
