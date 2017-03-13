@@ -41,7 +41,7 @@
     
 - Android 字体大小
     ```java
-    "?android:attr/textAppearanceLarge"
+     "?android:attr/textAppearanceLarge"
      "?android:attr/textAppearanceMedium"
      "?android:attr/textAppearanceSmall"
     ```
