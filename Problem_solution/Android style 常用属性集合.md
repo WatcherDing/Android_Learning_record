@@ -14,3 +14,13 @@
     ```xml
     <item name="windowBackground">@color/colorxx</item>
     ```
+- 设置窗体的颜色
+
+    ```xml
+    <item name="windowBackground">@color/colorxx</item>
+    ```
+- 设置窗体的颜色
+
+    ```xml
+    <item name="windowBackground">@color/colorxx</item>
+    ```
