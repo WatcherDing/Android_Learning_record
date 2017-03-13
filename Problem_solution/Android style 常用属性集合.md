@@ -38,11 +38,11 @@
          android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" // 半透明效果，无标题栏，全屏
     ```
 - Android 字体大小
-```java
-"?android:attr/textAppearanceLarge"
- "?android:attr/textAppearanceMedium"
- "?android:attr/textAppearanceSmall"
-```
+    ```java
+    "?android:attr/textAppearanceLarge"
+     "?android:attr/textAppearanceMedium"
+     "?android:attr/textAppearanceSmall"
+    ```
 - Android 字体颜色
     ```java
      android:textColor="?android:attr/textColorPrimary"
