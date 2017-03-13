@@ -14,7 +14,7 @@
     ```xml
     <item name="windowBackground">@color/colorxx</item>
     ```
-- 设置窗体的颜色
+- 设置状态栏透明
 
     ```xml
     <item name="android:windowTranslucentStatus">true</item>
