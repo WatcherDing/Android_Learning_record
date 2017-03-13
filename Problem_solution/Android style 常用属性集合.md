@@ -51,3 +51,6 @@
      android:textColor="?android:attr/textColorPrimaryInverse"
      android:textColor="?android:attr/textColorSecondaryInverse"
     ```
+    
+    
+    ![](/assets/20160329134244193.png)
