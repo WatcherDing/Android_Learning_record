@@ -9,7 +9,7 @@
     ```xml
      <item name="android:windowFullscreen">false</item>
     ```
-- 4.4之后设置状态栏颜色
+- 设置窗体的颜色
 
     ```xml
     <item name="windowBackground">@color/colorxx</item>
