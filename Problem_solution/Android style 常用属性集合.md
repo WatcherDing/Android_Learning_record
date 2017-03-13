@@ -19,7 +19,7 @@
     ```xml
     <item name="android:windowTranslucentStatus">true</item>
     ```
-    
+- Android 自带的主题样式
 ```java
      android:theme="@android:style/Theme.Dialog" // 将一个Activity显示为对话框模式
      android:theme="@android:style/Theme.NoTitleBar" // 不显示应用程序标题栏
