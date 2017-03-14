@@ -10,11 +10,7 @@ java.lang.IllegalArgumentException: method ID not in [0, 0xffff]: 65536
 
 ```
 defaultConfig {
-        applicationId "com.example.a12348.test"
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode rootProject.ext.versionCode
-        versionName rootProject.ext.versionName
+
         multiDexEnabled true
     }
 dependencies {
