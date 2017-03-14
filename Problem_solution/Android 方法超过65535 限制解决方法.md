@@ -6,4 +6,9 @@
 UNEXPECTED TOP-LEVEL EXCEPTION:  
 java.lang.IllegalArgumentException: method ID not in [0, 0xffff]: 65536  
 ```
-- 上面的意思是说dex 中的方法超过了最大限制65535 .
+- 上面的意思是说dex 中的方法超过了最大限制65535 
+
+```
+//方法超过65536
+    compile 'com.android.support:multidex:1.0.1'
+```
