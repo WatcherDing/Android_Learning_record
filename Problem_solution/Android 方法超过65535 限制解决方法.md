@@ -23,16 +23,13 @@ dependencies {
 
 - 第二步
 
-```
+```java
 public class App extends Application {
-    private static App app = null;
 
     @Override
     public void onCreate() {
         super.onCreate();
-        MultiDex.install(this);
-        app = this;
-        initTbs();
+        MultiDex.install(this); 
     }
 }
 ```
