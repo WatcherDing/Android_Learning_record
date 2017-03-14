@@ -8,6 +8,8 @@ java.lang.IllegalArgumentException: method ID not in [0, 0xffff]: 65536
 ```
 - 上面的意思是说dex 中的方法超过了最大限制65535 
 
+### 解决方法
+- 第一步
 ```
 defaultConfig {
 
@@ -16,5 +18,20 @@ defaultConfig {
 dependencies {
     //方法超过65536
     compile 'com.android.support:multidex:1.0.1'
+    }
+```
+
+- 第二步
+
+```
+public class App extends Application {
+    private static App app = null;
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        MultiDex.install(this);
+        app = this;
+        initTbs();
     }
 ```
