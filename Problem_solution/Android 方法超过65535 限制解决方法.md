@@ -9,6 +9,14 @@ java.lang.IllegalArgumentException: method ID not in [0, 0xffff]: 65536
 - 上面的意思是说dex 中的方法超过了最大限制65535 
 
 ```
+defaultConfig {
+        applicationId "com.example.a12348.test"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode rootProject.ext.versionCode
+        versionName rootProject.ext.versionName
+        multiDexEnabled true
+    }
 dependencies {
     //方法超过65536
     compile 'com.android.support:multidex:1.0.1'
