@@ -12,10 +12,11 @@ java.lang.IllegalArgumentException: method ID not in [0, 0xffff]: 65536
 - 第一步
 ```
 defaultConfig {
-
+        ...
         multiDexEnabled true
     }
 dependencies {
+    ...
     //方法超过65536
     compile 'com.android.support:multidex:1.0.1'
     }
