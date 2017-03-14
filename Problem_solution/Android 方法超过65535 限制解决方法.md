@@ -34,4 +34,5 @@ public class App extends Application {
         app = this;
         initTbs();
     }
+}
 ```
