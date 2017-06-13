@@ -1,6 +1,6 @@
 # android 学习记录（持续更细）
 
->收录Android优秀的插件和文章，作为学习分享
+> 收录Android优秀的插件和文章，作为学习分享
 
 ### 插件
 
@@ -18,36 +18,24 @@
 * [SwipeToLoadLayout](https://github.com/Aspsine/SwipeToLoadLayout) - 上拉刷新下拉加载
 * [MultiStateView](https://github.com/Kennyc1012/MultiStateView) - 不同状态显示不同视图 无网络 无数据等
 
-
-
-
- 
-
-
-
-
-#####加载图片
+##### 加载图片
 
 * [glide](https://github.com/bumptech/glide) （推荐）
 * [picasso](https://github.com/square/picasso) 
 * [Glide Transformations](https://github.com/wasabeef/glide-transformations) - 编辑图片（Glide）
- 
-#####访问网络
+
+##### 访问网络
+
 * [Retrofit](https://github.com/square/retrofit) 
 * [Retrofit2 入门教程一](./Problem_solution/Retrofit2 入门教程一.md)
 * [Retrofit2 入门教程二](./Problem_solution/Retrofit2 入门教程二.md)
 * [Retrofit2 入门教程三](./Problem_solution/Retrofit2 入门教程三.md)
 
 * [RxCache](https://github.com/VictorAlbertos/RxCache)  -  缓存
+
 * [gson](https://github.com/google/gson)  -  json解析
 * [dagger](https://github.com/square/dagger)  -  dagger注入
 * [rxandroid](https://github.com/ReactiveX/RxAndroid)  -  rxandroid 异步
-
-
-
-
-
-
 
 ### Android资源合集
 
@@ -59,7 +47,7 @@
 * [FastDev4Android](https://github.com/jiangqqlmj/FastDev4Android)
 * [Android最新源码汇总](http://androidblog.cn/index.php/Source/)
 
-###优秀博客
+### 优秀博客
 
 * [各种Android UI开源框架](https://github.com/Tim9Liu9/TimLiu-Android)
 * [屏幕适配的前世今生](http://blog.csdn.net/lin_t_s/article/details/55271002)
@@ -81,17 +69,6 @@
 * [成为专业程序员路上用到的各种优秀资料、神器及框架](https://gold.xitu.io/entry/58a57529128fe1006465864d)  
 * [神注释大全（欢迎补充）](https://gold.xitu.io/entry/58758081ac502e006c359757) 
 * [免费的编程中文书籍索引](https://github.com/justjavac/free-programming-books-zh_CN ) 
-
-
-
-
-
-
- 
-
-
-
-
-
+* 
 
 
